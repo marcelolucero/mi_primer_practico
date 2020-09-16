@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memeroteca - Adivinanza</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-primary text-white">
+            <div class="row"><img class="img-fluid" src="imagenes/fubebreros.jpg" style="width: 100%;"></div>
+            <div class="row-xs-1 center-block text-center p-5"><h1>¡A jugar!</h1></div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <div class="conteiner p-5">
+                <div class="row">
+                  <div class="col"><li><a href="index.html">Home</a></li></div>
+                  <div class="col"> <li><a href="historicos.html">Históricos</a></li></div>
+                  <div class="col"><li><a href="contacto.html">Contacto</a></li></div>
+             </div>
+            </div> 
+        </ul>
+            </div>
+            </nav>
+    <script>
+        var optres = 2019
+        var intentos = 0;
+        var numero;
+        var nombre = prompt("Bienvenido al juego. Ingresa tu nombre");
+        
+        for (intentos; intentos < 2; intentos ++) {
+	        numero = prompt(nombre + " ¿En qué año apareció el meme de las dos chicas y el gato?, elige entre 2018, 2019 y 2020");
+            
+            if(numero == optres) {alert("la respuesta es correcta")
+            } else {
+	alert ("La respuesta es incorrecta");
+        }
+    }
+    </script>
+
+<footer class="p-5 bg-dark text-white">
+    <p>Ríase y no joda a los demás por pavadas</p>
+  </footer>
+</body>
+</html>
